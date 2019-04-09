@@ -4,7 +4,7 @@
   "description": "Contains all linting and formatting rules used by 2 Minute Revolution.",
   "main": "index.js",
   "scripts": {
-		"typecheck": "rm -rf dist && tsc --noUnusedLocals",
+    "typecheck": "rm -rf dist && tsc --noUnusedLocals",
     "lint": "tslint --project tsconfig.json -c tslint.commit.json --fix",
     "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -41,6 +41,7 @@
     "tslint": "^5.15.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-etc": "^1.5.0",
+    "tslint-no-circular-imports": "^0.6.2",
     "typescript": "^3.4.1"
   }
 }
