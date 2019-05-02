@@ -36,6 +36,7 @@
     "object-literal-sort-keys": false,
     "member-access": false,
     "member-ordering": false,
+    "no-empty": false,
     "strict-type-predicates": true,
     "no-default-export": true /* this is more strict than no-default-import*/,
     "strict-boolean-expressions": true
