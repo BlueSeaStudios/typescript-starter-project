@@ -37,11 +37,7 @@
     "member-access": false,
     "member-ordering": false,
     "strict-type-predicates": true,
-    "strict-boolean-expressions": [
-      true,
-      "allow-null-union",
-      "allow-undefined-union",
-      "ignore-rhs"
-    ]
+    "no-default-export": true /* this is more strict than no-default-import*/,
+    "strict-boolean-expressions": true
   }
 }
