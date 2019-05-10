@@ -39,6 +39,7 @@
     "no-empty": false,
     "strict-type-predicates": true,
     "no-default-export": true /* this is more strict than no-default-import*/,
+    "no-null-undefined-union": true,
     "strict-boolean-expressions": true
   }
 }
